@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+
+#nav-bar {
+  background-color: #ECECEC;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-left: 62%;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  margin-right: 4.5rem;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+#header-img {
+  height: 85px;
+}
+
+@media (max-width: 1200px) {
+  .nav-list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
+}
+
+body {
+  margin-top: 125px;
+}
+
+#email_title {
+  margin-top: 40px;
+}
+
+form {
+  text-align: center;
+}
+
+#email_title {
+  text-align: center;
+}
+
+#video {
+  margin: auto;
+  display: block;
+  margin-top: 35px;
+}
+
+.body-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 2.3;
+  margin-left: 50px;
+  width: 90%;
+}
+
+h1 {
+  margin-left: 30px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  background-color: #ECECEC;
+  color: black;
+  padding: 20px;
+  margin: 30px 10px 0 10px;
+  border-radius: 10px;
+}
+
+.guitarOptions {
+  font-size: 15px;
+}
+
+.submit {
+  height: 50px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.submit:hover {
+  background-color: #ff0000;
+  color: white;
+  transition: 1.0s;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #ECECEC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 40px;
+  height: 50px;
+  width: 100%;
+}
